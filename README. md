@@ -1,8 +1,13 @@
-# TRABAJO RABBITMQ
+# TRABAJO RABBITMQ 
 
-## 1.Se levante rabbitMq
-![Docker Compose sin declarar redes](img/image.png)
-se comprueba en el localhost:5672
-![Docker Compose sin declarar redes](img/image2.png)
-## 2. Conexion sin declaran redes
-El docker-compose sin declara redes se asi: 
+Inicialmente se debe levanta el contenedor con el servicio de rabbitmq.
+![diagrama](IMAGE/image.png)
+Se comprueba el correcto levantamiendo, mediante el localhost:15672, teniendo en cuenta que sus credenciales se encuentran en el archivo .env
+![diagrama](IMAGE/image2.png)
+
+Mi lenguaje de programaciòn selecionado fue javaScript, y siguiendo instrucciones se creo el receive.js y send.js
+Ejecutamos inicilmente con el script de receive.js
+![diagrama](IMAGE/image3.png)
+
+Siguiente ejecutamos en otra terminal el script de send.js
+![diagrama](IMAGE/image4.png)
