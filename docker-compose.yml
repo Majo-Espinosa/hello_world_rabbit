@@ -1,4 +1,4 @@
-services:
+services: 
   rabbitmq:
     image: rabbitmq:latest
     container_name: rabbitmq
@@ -7,8 +7,8 @@ services:
       - 5672:5672
       - 15672:15672
     environment:
-      RABBITMQ_DEFAULT_USER: kalo
-      RABBITMQ_DEFAULT_PASS: kalo
+      RABBITMQ_DEFAULT_USER: ${RABBITMQ_DEFAULT_USER}
+      RABBITMQ_DEFAULT_PASS: ${RABBITMQ_DEFAULT_PASS}
     configs:
       - source: rabbitmq-plugins
         target: /etc/rabbitmq/enabled_plugins

@@ -1,0 +1,8 @@
+# TRABAJO RABBITMQ
+
+## 1.Se levante rabbitMq
+![Docker Compose sin declarar redes](img/image.png)
+se comprueba en el localhost:5672
+![Docker Compose sin declarar redes](img/image2.png)
+## 2. Conexion sin declaran redes
+El docker-compose sin declara redes se asi: 
